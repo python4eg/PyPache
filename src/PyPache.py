@@ -13,7 +13,7 @@ import ThreadPool
 import time
 
 APP_PATH = '.'
-CONFIG_PATH = os.parh.join(APP_PATH, 'etc', 'server_config.conf')
+CONFIG_PATH = os.path.join(APP_PATH, 'etc', 'server_config.conf')
 PACKET_SIZE = 4096
 SERVER_NAME = 'PyPache'
 SERVER_VERSION = '0.0.1'
